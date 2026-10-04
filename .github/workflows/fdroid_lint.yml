@@ -13,7 +13,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - name: F-Droid Specific Metadata Checks
         run: |
           METADATA_DIR="fastlane/metadata/android"
@@ -26,7 +26,7 @@ jobs:
           echo "F-Droid prerequisite checks passed."
 
       - name: Validate Fastlane Supply Metadata
-        uses: ashutoshgngwr/validate-fastlane-supply-metadata@v2
+        uses: ashutoshgngwr/validate-fastlane-supply-metadata@c8857fdbbd3e00f9a5cbe8604bcecfa95ce8fef8 # v2
 
       - name: Scan for proprietary dependencies (F-Droid compliance)
         run: |

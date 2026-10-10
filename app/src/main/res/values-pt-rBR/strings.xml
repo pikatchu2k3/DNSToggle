@@ -173,4 +173,5 @@
 	<string name="shortcut_toggle_long">Alternar modo de DNS Privado</string>
 	<string name="shortcut_select_short">Selecionar DNS</string>
 	<string name="shortcut_select_long">Escolher nome do host do DNS Privado</string>
+    <string name="app_name">DNS Toggle</string>
 </resources>

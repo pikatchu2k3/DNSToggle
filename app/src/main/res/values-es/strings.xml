@@ -173,4 +173,5 @@
 	<string name="biometricErrorSecurityUpdateRequired">Se requiere una actualización de seguridad para la autenticación biométrica.</string>
 	<string name="biometricErrorUnsupported">La autenticación biométrica no es compatible con esta versión de Android.</string>
 	<string name="biometricErrorDefault">Autenticación no disponible (Código de error: %1$d)</string>
+    <string name="app_name">DNS Toggle</string>
 </resources>
